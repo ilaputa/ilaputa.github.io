@@ -10,7 +10,6 @@
 console.log("\n %c  %c https://laputa.icu \n", "color: #ffffff; background: #f1404b; padding:5px 0;", "background: #030307; padding:5px 0;");
 
 var imgArr = [
-    './nav/img/00.jpg',
     './nav/img/01.jpg',
     './nav/img/02.jpg',
     './nav/img/03.jpg',
@@ -33,9 +32,8 @@ var imgArr = [
     './nav/img/20.jpg',
     './nav/img/21.jpg',
     './nav/img/22.jpg',
-
-    './nav/img/01.png',
-    './nav/img/02.png'
+    './nav/img/23.jpg',
+    './nav/img/24.jpg'
 ]
 bgImg = imgArr[Math.floor(Math.random() * imgArr.length)];
 $('.img-bg').css('background-image', 'url(' + bgImg + ')');
